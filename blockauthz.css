@@ -1,0 +1,43 @@
+/**
+ * Authentication block: module for PrestaShop 1.5
+ *
+ * @author      zapalm <zapalm@ya.ru>
+ * @copyright   (c) 2013-2016, zapalm
+ * @link        http://prestashop.modulez.ru/en/home/38-authentication-block.html The module's homepage
+ * @license     http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
+ */
+
+#blockauthz_block_top {
+    padding-top: 49px;
+    width: 202px;
+    margin-bottom: 0;
+}
+
+#blockauthz_block_sidebar .block_content, #blockauthz_block_top .block_content {
+    padding: 10px 0 15px 0;
+}
+
+#blockauthz_block_sidebar p, #blockauthz_block_top p {
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0 5px 15px;
+}
+
+#blockauthz_block_sidebar p.links, #blockauthz_block_top p.links {
+
+}
+
+#blockauthz_block_sidebar p a.login, #blockauthz_block_top p a.login {
+    float: right;
+}
+
+#blockauthz_block_sidebar p a.signin, #blockauthz_block_top p a.signin {
+    float: left;
+    padding-right: 6px;
+    font-weight: bold;
+}
+
+#blockauthz_block_sidebar .block_content .account_input, #blockauthz_block_top .block_content .account_input {
+    padding: 0 !important;
+    width: 100% !important;
+}
